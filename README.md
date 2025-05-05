@@ -1,6 +1,6 @@
 # Cheatsheet of GitHub commands
 
-## How to set up the second GitHub account to be from the terminal
+## How to set up the second GitHub account
 
 `ssh-keygen -t ed25519 -C "emailconnectedtogithub@gmai.com"`
 
@@ -36,7 +36,7 @@ Host github-second
   IdentityFile ~/.ssh/id_ed25519_second
 ~~~
 
-## To clone repo from the second account
+### To clone repo from the second account
 `git clone git@github-second:your-username/your-repo.git`
 
 ~~~
@@ -50,3 +50,17 @@ git config user.name
 git config user.email
 ~~~
 - to check what identity is connected to the repo
+
+## Shortcuts
+~~~zsh
+vim ~/.zshrc
+
+alias ga="git add ."
+alias gc="git commit -m "
+alias gp="git push"
+alias gst="git status"
+
+wq
+
+source ~/.zshrc
+~~~
