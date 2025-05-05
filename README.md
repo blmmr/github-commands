@@ -2,7 +2,7 @@
 
 ## How to set up the second GitHub account
 
-~~~
+~~~zsh
 ssh-keygen -t ed25519 -C "emailconnectedtogithub@gmai.com"
 
 # generates ssh for the second account
@@ -37,7 +37,7 @@ Host github-second
 ~~~
 
 ### To clone repo from the second account
-~~~
+~~~zsh
 git clone git@github-second:your-username/your-repo.git
 
 git config user.name "Second Username"
