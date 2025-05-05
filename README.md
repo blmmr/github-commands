@@ -4,7 +4,6 @@
 
 ~~~zsh
 ssh-keygen -t ed25519 -C "emailconnectedtogithub@gmai.com"
-
 # generates ssh for the second account
 # -c adds a comment (could be any), but the convention is using an email
 # should be saved as /Users/yourname/.ssh/id_ed25519_second
@@ -46,7 +45,6 @@ git config user.email "you@example.com"
 
 git config user.name
 git config user.email
-
 # to check what identity is connected to the repo
 ~~~
 
