@@ -48,7 +48,7 @@ git config user.email
 # to check what identity is connected to the repo
 ~~~
 
-## How to push the repo from the local machine to GitHub
+## How to push the repo from the local machine to GitHub from the second account
 ~~~zsh
 cd /path/to/project
 git init # initializes git
