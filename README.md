@@ -48,6 +48,25 @@ git config user.email
 # to check what identity is connected to the repo
 ~~~
 
+## How to push the repo from the local machine to GitHub
+~~~zsh
+cd /path/to/project
+git init # initializes git
+
+git add .
+git commit -m "Initial commit"
+
+git config user.name "SecondUsername"
+git config user.email "email@secondaccount.com"
+
+# create a new GitHub repo without a readme
+
+git remote add origin git@github-second:your-username/your-repo.git # adds remote
+
+git push
+
+~~~
+
 ## Shortcuts
 ~~~zsh
 vim ~/.zshrc
